@@ -1,6 +1,7 @@
 function About() {
   return (
     <div className="relative pt-[100px]">
+    <div className="relative pt-[100px]" id="about"></div>
       <div className="relative z-20 px-5 ">
         <div className="sm:flex w-full justify-between">
           <div>

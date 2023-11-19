@@ -3,7 +3,7 @@ import fondoImg from './../assets/fondo.png';
 
 function Intro() {
   return (
-    <div className='text-white pt-[150px]'>
+    <div id='inicio' className='text-white pt-[150px]'>
       <Particle />
       <div className='flex sm:flex-row flex-col justify-center sm:justify-start px-5 items-center'>
       <img src={fondoImg} className="shadow-white" alt="Fondo" />

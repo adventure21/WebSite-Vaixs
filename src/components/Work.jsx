@@ -2,7 +2,7 @@ import Card from "./common/card";
 
 function Work() {
   return (
-    <div className="relative pt-[100px]">
+    <div id="work" className="relative pt-[100px]">
       <div className="relative z-20 px-5 ">
         <div className="">
           <div>
