@@ -12,7 +12,7 @@ function Work() {
               Lo que hacemos
             </h1>
             <p className="text-gray-600 ">*/*</p>
-            <p className="w-[50vw]">Desarrollamos sistemas a la medida siguiendo estrictos estándares de calidad. Nuestras aplicaciones son escalables, robustas y fáciles de usar, y trabajamos solo con las principales tecnologías acorde a las necesidades de cada proyecto</p>
+            <p className="sm:w-[50vw]">Desarrollamos sistemas a la medida siguiendo estrictos estándares de calidad. Nuestras aplicaciones son escalables, robustas y fáciles de usar, y trabajamos solo con las principales tecnologías acorde a las necesidades de cada proyecto</p>
           </div>
 
           {/* contenido de las cards */}
