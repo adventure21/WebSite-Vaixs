@@ -1,5 +1,4 @@
-import { useState } from 'react';
-
+import { useState } from "react";
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -28,18 +27,16 @@ function Contact() {
   };
 
   return (
-    <div className="relative pt-[100px]">
     <div id="contact" className="relative pt-[100px] mb-[100px]">
       <div className="relative z-20 px-5 ">
         <div className="sm:flex w-full justify-between">
-        <div className="flex flex-col justify-center w-full sm:px-10">
+          <div className="flex flex-col justify-center w-full sm:px-10">
             <p className="text-gray-600 ">*/*</p>
-            </div>
             <h1 className="text-primary-600 text-center sm:text-start font-bold text-[50px]">
+              Contactanos
             </h1>
             <p className="text-gray-600 ">*/*</p>
-
-            <form onSubmit={handleSubmit} className="space-y-8 pt-[100px]">
+            <form onSubmit={handleSubmit} className="space-y-8 pt-[10px]">
               <div>
                 <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">
                   Correo electronico
@@ -55,7 +52,7 @@ function Contact() {
                 />
               </div>
               <div>
-              <label className="block mb-2 text-sm font-medium text-gray-900 ">
+                <label className="block mb-2 text-sm font-medium text-gray-900 ">
                   Motivo
                 </label>
                 <input
