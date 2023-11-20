@@ -16,7 +16,7 @@ function Work() {
           </div>
 
           {/* contenido de las cards */}
-          <div className="flex flex-wrap  space-x-5 pt-[100px]">
+          <div className="flex flex-wrap space-y-5  sm:space-x-5 pt-[50px]">
             <Card
               title="Desarrollo de apps moviles"
               description="Sistemas para todo tipo de dispositivos y plataformas móviles. Maneja el mundo desde tus manos."

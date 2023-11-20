@@ -25,43 +25,28 @@ const Footer = () => {
               </h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
                 <li>
-                  <a
-                    href="#"
-                    className="hover:text-white mb-2 text-sm"
-                  >
+                <a href="#" className="hover:text-white mb-2 text-sm">
                     Inicio
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="#"
-                    className="hover:text-white mb-2 text-sm"
-                  >
+                <a href="#" className="hover:text-white mb-2 text-sm">
                     Sobre VAIXS
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="#"
-                    className="hover:text-white mb-2 text-sm"
-                  >
+                <a href="#" className="hover:text-white mb-2 text-sm">
                     Lo que hacemos
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="#"
-                    className="hover:text-white mb-2 text-sm"
-                  >
+                <a href="#" className="hover:text-white mb-2 text-sm">
                     Portafolio
                   </a>
                 </li>
 
                 <li>
-                  <a
-                    href="#"
-                    className="hover:text-white mb-2 text-sm"
-                  >
+                <a href="#" className="hover:text-white mb-2 text-sm">
                     Hosting
                   </a>
                 </li>
@@ -96,10 +81,10 @@ const Footer = () => {
               </h2>
               <p className="text-sm">
                 <b>Nos encontramos en:</b>
-                <p>Cochabamba - Vinto
-<br/>
-                Av. Pairumani - Calle 1
-
+                <p>
+                  Cochabamba - Vinto
+                  <br />
+                  Av. Pairumani - Calle 1
                 </p>
 
                 <p className="mt-2 text-xs">

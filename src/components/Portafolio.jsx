@@ -9,9 +9,9 @@ function Portafolio() {
     ];
   
     return (
-      <div className="container mx-auto py-8 " id="portafolio">
+      <div className="container mx-auto py-8 px-5 sm:pt-[120px]" id="portafolio">
               <p className="text-gray-600 ">*/*</p>
-              <h1 className="text-primary-600 font-bold text-[50px]">
+              <h1 className="text-primary-600 font-bold text-center sm:text-start text-[50px]">
                   Nuestros clientes
               </h1>
               <p className="text-gray-600 ">*/*</p>
@@ -19,7 +19,7 @@ function Portafolio() {
           {logos.map((logo, index) => (
             <div
               key={index}
-              className="w-full mx-10 sm:mx-3  mt-4 sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 p-2 overflow-hidden relative group bg-white bg-opacity-80"
+              className="w-full sm:mx-3  mt-4 sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 p-2 overflow-hidden relative group bg-white bg-opacity-80"
             >
               <img
                 src={logo}
