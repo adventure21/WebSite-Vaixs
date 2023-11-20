@@ -1,17 +1,17 @@
 import { useState } from 'react';
-import mapa from "./../assets/mapa2.png";
+
 
 function Contact() {
   const [formData, setFormData] = useState({
-    email: '',
-    motivo: '',
-    mensaje: '',
+    email: "",
+    motivo: "",
+    mensaje: "",
   });
 
   const enviarMensaje = () => {
     const mensaje = `Correo: ${formData.email}%0A%0A${formData.motivo}%0A%0A${formData.mensaje}`;
     const whatsappUrl = `https://api.whatsapp.com/send/?phone=+59168525787&text=${mensaje}`;
-    window.open(whatsappUrl, '_blank');
+    window.open(whatsappUrl, "_blank");
   };
 
   const handleChange = (e) => {
@@ -29,7 +29,7 @@ function Contact() {
 
   return (
     <div className="relative pt-[100px]">
-    <div id="contact" className="relative pt-[100px]">
+    <div id="contact" className="relative pt-[100px] mb-[100px]">
       <div className="relative z-20 px-5 ">
         <div className="sm:flex w-full justify-between">
           <div className="flex flex-col justify-center w-full px-10">
@@ -40,7 +40,7 @@ function Contact() {
             </h1>
             <p className="text-gray-600 ">*/*</p>
 
-            <form onSubmit={handleSubmit} className="space-y-8 pt-[100px]">
+            <form onSubmit={handleSubmit} className="space-y-8 pt-[10px]">
               <div>
                 <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">
                   Correo electronico
@@ -56,9 +56,7 @@ function Contact() {
                 />
               </div>
               <div>
-                <label
-                  className="block mb-2 text-sm font-medium text-gray-900 "
-                >
+              <label className="block mb-2 text-sm font-medium text-gray-900 ">
                   Motivo
                 </label>
                 <input
@@ -94,13 +92,17 @@ function Contact() {
               </div>
             </form>
           </div>
-          <img
-            src={mapa}
-            className="sm:pt-[250px] pt-5 pb-[100px]"
-            width={550}
-            height={150}
-            alt="Mapa"
-            />
+          <div className="mt-[200px]">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d951.878712580787!2d-66.3168346036149!3d-17.387062780389368!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sbo!4v1700338031046!5m2!1ses!2sbo"
+              width="600"
+              height="450"
+              style={{ border: 0 }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
         </div>
       </div>
     </div>
