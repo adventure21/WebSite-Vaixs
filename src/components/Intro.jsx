@@ -5,7 +5,7 @@ function Intro() {
   return (
     <div
       id="inicio"
-      className="text-white pt-[150px] text-center sm:text-start"
+      className="text-white pt-[150px] sm:h-screen text-center sm:text-start"
     >
       <Particle />
       <div className="flex sm:flex-row flex-col justify-center sm:justify-start px-5 items-center">
@@ -23,7 +23,7 @@ function Intro() {
           <br></br>
           <a
             href="#"
-            className="text-primary-600 border border-primary-600 hover:border-primary-800  font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5"
+            className="text-primary-600 font-bold border-[2px] hover:bg-primary-600 hover:text-white border-primary-600 hover:border-primary-800  rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5"
           >
             Contactanos
           </a>

@@ -1,16 +1,21 @@
 function About() {
   return (
-    <div className="relative pt-[100px]">
-    <div className="relative pt-[100px]" id="about"></div>
+    <div id="about" className="relative mt-[150px] sm:h-screen bg-white text-black py-[50px]">
+    <div className="relative mt-[0px]" ></div>
       <div className="relative z-20 px-5 ">
-        <div className="sm:flex w-full justify-between">
-          <div>
-            <p className="text-gray-600 ">*/*</p>
-            <h1 className="text-primary-600 font-bold text-[50px]">
+            <h1 className="text-primary-600 pt-[50px] font-bold text-center text-[50px]">
               Sobre VAIXS
             </h1>
-            <p className="text-gray-600 ">*/*</p>
-            <p className="sm:w-[40vw] w-full">
+            <div className="flex justify-center">
+              <div className=" w-[200px] h-[3px] mb-[100px] bg-primary-500"></div>
+
+            </div>
+            
+        <div className="sm:flex w-full justify-between items-center">
+
+          <div className="sm:ml-[50px]">
+
+            <p className="sm:w-[40vw] w-full text-center text-lg bg-black bg-opacity-10 p-5  shadow-lg rounded-lg">
               {" "}
               VAIXS Soluciones Virtuales inicia sus actividades en la ciudad de
               Cochabamba, en Agosto 2012, al servicio de incorporar nuevas
@@ -25,7 +30,6 @@ function About() {
           </div>
           <img
             src="http://www.vaixs.net/img/img2.png"
-            className="sm:pt-[250px] pt-5"
             width={550}
             height={150}
           ></img>

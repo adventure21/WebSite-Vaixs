@@ -1,24 +1,16 @@
-import About from "./components/About"
-import Contact from "./components/Contact"
-import Footer from "./components/Footer"
-import Header from "./components/Header"
-import Intro from "./components/Intro"
-import Portafolio from "./components/Portafolio"
-import Work from "./components/Work"
-
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './pages/home';
+import Hosting from './pages/Hosting';
 function App() {
   
   return (
-    <div className="text-white">
-    <Header></Header>
-    <Intro></Intro>
-    <About></About>
-    <Work></Work>
-    <Portafolio ></Portafolio>
-    <Contact></Contact>
-    <Footer></Footer>
-    
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home></Home>} />
+        <Route path="/hosting" element={<Hosting></Hosting>} />
+
+      </Routes>
+    </BrowserRouter>
   )
 }
 
