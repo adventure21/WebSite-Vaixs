@@ -17,8 +17,8 @@ const Header = ({ onNavLinkClick }) => {
             <span className="self-center text-xl font-semibold whitespace-nowrap ">Vaixs</span>
           </a>
           <div className="flex items-center lg:order-2">
-          <a href="#portafolio" onClick={(e) => onNavLinkClick(e, 'portafolio')} className="text-gray-100 font-bold  hover:bg-gray-200 hover:text-black focus:ring-4 focus:ring-gray-300  rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none ">Portafolio</a>
-            <a  href="#contact" onClick={(e) => onNavLinkClick(e, 'contact')} className="text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2  focus:outline-none ">Contactanos</a>
+          <a href="/#portafolio" onClick={(e) => onNavLinkClick(e, 'portafolio')} className="text-primary-700 font-bold  hover:bg-gray-200 hover:text-black focus:ring-4 focus:ring-gray-300  rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none ">Portafolio</a>
+            <a  href="/#contact" onClick={(e) => onNavLinkClick(e, 'contact')} className="text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2  focus:outline-none ">Contactanos</a>
 
             <button
               onClick={toggleMenu}
