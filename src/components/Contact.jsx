@@ -29,13 +29,16 @@ function Contact() {
   return (
     <div id="contact" className="relative pt-[100px] mb-[100px]">
       <div className="relative z-20 px-5 ">
-        <div className="sm:flex w-full justify-between">
-          <div className="flex flex-col justify-center w-full sm:px-10">
-            <p className="text-gray-600 ">*/*</p>
-            <h1 className="text-primary-600 text-center sm:text-start font-bold text-[50px]">
+      <h1 className="text-primary-600 text-center  font-bold text-[50px]">
               Contactanos
             </h1>
-            <p className="text-gray-600 ">*/*</p>
+            <div className="flex justify-center">
+              <div className=" w-[200px] h-[3px] bg-primary-500 mb-[50px]"></div>
+
+            </div>
+        <div className="sm:flex w-full justify-between items-center">
+          <div className="flex flex-col justify-center w-full sm:px-10">
+
             <form onSubmit={handleSubmit} className="space-y-8 pt-[10px]">
               <div>
                 <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">
@@ -81,14 +84,15 @@ function Contact() {
               <div>
                 <button
                   type="submit"
-                  className="border py-3 px-5 text-sm font-medium text-center text-primary-600 rounded-lg border-primary-700 sm:w-fit hover:border-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300"
+                  className="mb-[30px] w-full shadow-white shadow-sm py-3 px-5 text-sm text-white text-center  rounded-lg bg-primary-700 sm:w-fit hover:border-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300"
+
                 >
                   Enviar mensaje
                 </button>
               </div>
             </form>
           </div>
-          <div className="sm:mt-[200px] mt-[20px]">
+          <div className="">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d951.878712580787!2d-66.3168346036149!3d-17.387062780389368!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sbo!4v1700338031046!5m2!1ses!2sbo"
               allowFullScreen=""
