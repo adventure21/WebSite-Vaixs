@@ -10,14 +10,14 @@ const Header = ({ onNavLinkClick }) => {
 
   return (
     <header>
-      <nav className="bg-black border-gray-200 px-4 lg:px-6 py-2.5 fixed w-full z-50 backdrop-filter backdrop-blur-md backdrop-opacity-75">
+      <nav className="bg-black bg-opacity-20 border-gray-200 px-4 lg:px-6 py-2.5 fixed w-full z-50 backdrop-filter backdrop-blur-md backdrop-opacity-75">
       <div className="flex flex-wrap justify-between items-center max-w-screen-xl">
           <a href="#inicio" className="flex items-center" onClick={(e) => onNavLinkClick(e, 'inicio')}>
             <img src="http://www.vaixs.net/img/logo.png" className="mr-3 h-6 sm:h-9" alt="Logo" />
             <span className="self-center text-xl font-semibold whitespace-nowrap ">Vaixs</span>
           </a>
           <div className="flex items-center lg:order-2">
-          <a href="#portafolio" onClick={(e) => onNavLinkClick(e, 'portafolio')} className="text-gray-500  hover:bg-gray-200 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none ">Portafolio</a>
+          <a href="#portafolio" onClick={(e) => onNavLinkClick(e, 'portafolio')} className="text-gray-100 font-bold  hover:bg-gray-200 hover:text-black focus:ring-4 focus:ring-gray-300  rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none ">Portafolio</a>
             <a  href="#contact" onClick={(e) => onNavLinkClick(e, 'contact')} className="text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2  focus:outline-none ">Contactanos</a>
 
             <button
@@ -39,16 +39,16 @@ const Header = ({ onNavLinkClick }) => {
           <div className={`lg:flex w-full lg:w-auto lg:order-1 `} id="mobile-menu-2">
             <ul className={`flex ${isMenuOpen ? 'flex-col bg-opacity-50 space-y-1 h-screen mt-2 p-4 left-0 absolute w-full z-20 bg-black' : ' space-x-8 hidden lg:flex'}  mt-4 font-medium lg:flex-row lg:mt-0`}>
               <li>
-                <a  href="#inicio" onClick={(e) => onNavLinkClick(e, 'inicio')} className="block border border-transparent hover:border-primary-500 py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 "  aria-current="page">Inicio</a>
+                <a  href="/#inicio" onClick={(e) => onNavLinkClick(e, 'inicio')} className="sm:text-[16px] font-bold block border border-transparent hover:text-white hover:bg-primary-500 py-2 pr-4 pl-3  rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 cursor-pointer "  aria-current="page">Inicio</a>
               </li>
               <li>
-                <a href="#about" onClick={(e) => onNavLinkClick(e, 'about')} className="block border border-transparent hover:border-primary-500 py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 "  aria-current="page">Sobre Vaixs</a>
+                <a href="/#about" onClick={(e) => onNavLinkClick(e, 'about')} className="sm:text-[16px] font-bold block border border-transparent hover:text-white hover:bg-primary-500 py-2 pr-4 pl-3  rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 cursor-pointer "  aria-current="page">Sobre Vaixs</a>
               </li>
               <li>
-              <a  href="#work" onClick={(e) => onNavLinkClick(e, 'work')} className="block border border-transparent hover:border-primary-500 py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 " aria-current="page">Lo que hacemos</a>
+              <a  href="/#work" onClick={(e) => onNavLinkClick(e, 'work')} className="sm:text-[16px] font-bold block border border-transparent hover:text-white hover:bg-primary-500 py-2 pr-4 pl-3  rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 cursor-pointer " aria-current="page">Lo que hacemos</a>
               </li>
               <li>
-              <a  href="#contact" onClick={(e) => onNavLinkClick(e, 'contact')} className="block border border-transparent hover:border-primary-500 py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 " aria-current="page">Hosting</a>
+              <a  href="/hosting"  className="sm:text-[16px] font-bold block border border-transparent hover:text-white hover:bg-primary-500 py-2 pr-4 pl-3  rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 cursor-pointer " aria-current="page">Hosting</a>
               </li>
             </ul>
           </div>
