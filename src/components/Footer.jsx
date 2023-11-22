@@ -97,7 +97,7 @@ const Footer = () => {
                 <b>Correo:</b>
                 <br/>
 
-                victorvirtual@gmail.com.com
+                victorvirtual@gmail.com
                 </p>
               </p>
             </div>
