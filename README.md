@@ -6,8 +6,7 @@ Este tutorial te guiará a través de los pasos necesarios para instalar un nuev
 
 1. **Clonar el Repositorio:**
    ```bash
-   git clone https://github.com/obed-tc/VAIXS_ui
-   cd VAIXS_ui
+   cd WebSite-Vaixs
 
 2. **Instalar dependencias:**
    ```bash
